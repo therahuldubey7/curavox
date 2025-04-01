@@ -1,0 +1,115 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build files
+/build/
+/dist/
+/.next/
+/out/
+
+# Python/FastAPI
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.env
+.venv
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing
+/coverage/
+/.pytest_cache/
+/.coverage
+/htmlcov/
+
+# IDE and editors
+/.idea/
+/.vscode/
+*.swp
+*.swo
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.history/
+
+# Debug logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Media and uploaded files
+/media/
+/uploads/
+/static/
+/public/uploads/
+
+# Database
+*.sqlite3
+*.db
+
+# Temporary files
+.tmp/
+.temp/
+.cache/
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.a
+*.so
+*.pyc
+
+# Dependency directories for other languages
+/jspm_packages/
+/bower_components/
+
+# Generated documentation
+/docs/
+
+# Development tools
+.stylelintcache
+.eslintcache
+
+# API keys and secrets
+.env
+.env.*
+!.env.example
+
+# Audio/Video files (unless specifically needed)
+*.mp3
+*.wav
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Project specific
+curaVox-env/
