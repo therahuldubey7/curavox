@@ -1,0 +1,67 @@
+.audio-recorder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.record-button {
+  padding: 12px 24px;
+  border-radius: 24px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+  min-width: 150px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.record-button.recording {
+  background-color: #dc3545;
+  animation: pulse 2s infinite;
+}
+
+.record-button:hover:not(:disabled) {
+  transform: scale(1.02);
+  background-color: #0056b3;
+}
+
+.record-button.recording:hover {
+  background-color: #c82333;
+}
+
+.record-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  animation: none;
+}
+
+.error-message {
+  color: #dc3545;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.recording-duration {
+  font-size: 14px;
+  color: #666;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

@@ -32,11 +32,11 @@
   margin: 8px 0;
   padding: 8px 12px;
   border-radius: 8px;
-  max-width: 80%;
+  width: 80%;
 }
 
 .message.user {
-  background: #007bff;
+  background: #a5a5a5;
   color: white;
   margin-left: auto;
 }

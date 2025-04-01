@@ -1,0 +1,29 @@
+.waveform-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  height: 50px;
+  width: 100%;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  padding: 0 10px;
+  margin: 8px 0;
+}
+
+.waveform-bar {
+  flex: 1;
+  background-color: #007bff;
+  min-height: 3px;
+  border-radius: 2px;
+  transition: height 0.1s ease;
+}
+
+.message.bot .waveform-bar {
+  background-color: #6c757d;
+}
+
+/* Static state when not recording */
+.waveform-container:not(.recording) .waveform-bar {
+  height: 3px !important;
+}
