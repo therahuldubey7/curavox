@@ -1,0 +1,37 @@
+.role-selector {
+  padding: 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.role-pills,
+.symptom-pills {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.symptom-pills {
+  margin-top: 8px;
+}
+
+.role-pill,
+.symptom-pill {
+  padding: 6px 12px;
+  border-radius: 16px;
+  border: 1px solid #007bff;
+  background: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.role-pill.active,
+.symptom-pill.active {
+  background: #007bff;
+  color: white;
+}
+
+.role-pill:hover,
+.symptom-pill:hover {
+  background: #0056b3;
+  color: white;
+}

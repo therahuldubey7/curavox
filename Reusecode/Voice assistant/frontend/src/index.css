@@ -1,0 +1,7 @@
+/* index.css */
+
+/* Hide any leftover text or annotation layers from react-pdf */
+.react-pdf__Page__textContent,
+.react-pdf__Page__annotations {
+  display: none !important;
+}
